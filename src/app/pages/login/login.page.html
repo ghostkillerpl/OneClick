@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-item>
+        <ion-label color= "dark" style="font-weight: 800;" position="floating" color="primary">Email</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label color= "dark" style="font-weight: 800;" position="floating" color="primary">Hasło</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+  
+      <div class="login-section">
+        <ion-button color="secondary" expand="full"  fill="outline" shape="round" style=" margin-bottom: 12px;" >Zaloguj</ion-button>
+        <ion-button color="secondary" expand="full"  fill="outline" shape="round" style=" margin-bottom: 12px;" (click)="goToRegisterPage()"><p>Zarejestruj</p></ion-button>
+        <ion-button color="secondary" expand="full"  fill="outline" shape="round" style=" margin-bottom: 12px;" (click)="loginWithFacebook()" ><ion-icon slot="end" name="logo-facebook"></ion-icon><p>Zaloguj przez Facebook</p></ion-button>
+      </div>
+</ion-content>
