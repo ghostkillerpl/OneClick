@@ -1,0 +1,26 @@
+ion-content{
+    margin-top: 10rem;
+}
+.login-inputs{
+    margin-top: 45vh;
+}
+ion-content {
+    --background: none;
+    background-image: url('/assets/images/background-oneclick.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-section{
+    margin-top: 3rem;
+}
+.icon-lg{
+    position: absolute;
+    top: 33%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.item-has-focus{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
