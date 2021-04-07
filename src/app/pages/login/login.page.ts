@@ -23,13 +23,15 @@ export class LoginPage implements OnInit {
   }
 
   async login() {
-    const {email, password} = this
+    const { email, password } = this
     try{
       const res = await this.afAuth.signInWithEmailAndPassword(email, password)
+      .then(user => {
+        this.navCtrl.navigateForward('/tabs');
+      })
     } catch(err){
       console.dir(err)
     }
-    this.navCtrl.navigateForward('/tabs');
   }
 
   goToRegisterPage() {
