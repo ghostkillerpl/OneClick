@@ -1,0 +1,30 @@
+ion-list{
+    padding-bottom: 2.5rem;
+    margin: 1.2em;
+    border-radius: 1rem;
+    h1{
+        text-align: center;
+    }
+}
+ion-item{
+    margin-top: 1em;
+    &.savedatabtn{
+        border-radius: 1rem;
+        margin: 1.2em;
+        background-color: #1f1f1f;
+    }
+}
+.item-inner{
+    border-color: #1f1f1f;
+}
+ion-button{
+    margin: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+    box-shadow: 1px 1px 6px 0px rgb(255 255 255 / 25%);
+}
+.desc{
+    margin-top: 0px;
+}

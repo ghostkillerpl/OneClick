@@ -1,17 +1,51 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false" menuToggle></ion-menu-button>
+    </ion-buttons>
     <ion-title>
-      Tab 2
+      <p><span>Easy</span>Shopping</p>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-list>
+
+    <ion-item lines="none" class="savedatabtn">
+      <p>Zamówienie 6</p>
+      <p><ion-icon name="calendar-number"></ion-icon></p>
+      <p><ion-icon name="business"></ion-icon></p>
+      <p class="status"><ion-icon name="refresh-circle"></ion-icon></p>
+    </ion-item>
+
+    <ion-item lines="none" class="savedatabtn">
+      <p>Zamówienie 5</p>
+      <p class="status"><ion-icon name="checkmark-circle"></ion-icon></p>
+    </ion-item>
+  
+    <ion-item lines="none" class="savedatabtn">
+      <p>Zamówienie 4</p>    
+      <p class="status"><ion-icon name="checkmark-circle"></ion-icon></p>
+    </ion-item>
+  
+    <ion-item lines="none" class="savedatabtn">
+      <p>Zamówienie 3</p>    
+      <p><ion-icon name="clipboard"></ion-icon></p>
+      <p class="status"><ion-icon name="alert"></ion-icon></p>
+    </ion-item>
+
+    <ion-item lines="none" class="savedatabtn">
+      <p>Zamówienie 2</p>    
+      <p class="status"><ion-icon name="checkmark-circle"></ion-icon></p>
+    </ion-item>
+  
+    <ion-item lines="none" class="savedatabtn">
+      <p>Zamówienie 1</p>    
+      <p class="status"><ion-icon name="checkmark-circle"></ion-icon></p>
+    </ion-item>
+
+  </ion-list>
+
 </ion-content>

@@ -80,3 +80,17 @@ ion-title{
 #alert-1-msg{
     text-align: center;
 }
+
+ion-title{
+    p{
+        color: var(--ion-color-primary);
+        margin-left: -48px;
+        span{
+            color: var(--ion-color-secondary);
+        }
+    }
+}
+
+.tab-selected{
+    color: var(--ion-color-third);
+}
