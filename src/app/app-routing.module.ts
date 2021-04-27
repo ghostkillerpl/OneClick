@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'information',
     loadChildren: () => import('./pages/information/information.module').then( m => m.InformationPageModule)
+  },
+  {
+    path: 'cart-modal',
+    loadChildren: () => import('./cart-modal/cart-modal.module').then( m => m.CartModalPageModule)
   }
 ];
 @NgModule({
