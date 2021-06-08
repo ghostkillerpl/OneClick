@@ -25,9 +25,9 @@ export class CartModalPage implements OnInit {
  
   async checkout() {
     const alert = await this.alertCtrl.create({
-      header: 'Success',
-      message: 'Thanks for your order',
-      buttons: ['Continue shopping']
+      header: 'Sukces!',
+      message: 'Dziękujemy za zamówienie',
+      buttons: ['Kontynuuj zakupy']
     });
  
     await alert.present();

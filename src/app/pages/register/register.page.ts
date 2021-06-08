@@ -47,6 +47,10 @@ export class RegisterPage implements OnInit {
     this.navCtrl.navigateForward('/login');
   }
 
+  GoToRegulations() {
+    this.navCtrl.navigateForward('/regulations');
+  }
+
   async showAlert() {  
       
   }  
